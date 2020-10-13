@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 2.8)
 
 project (object-wrap-cmake-js)
 
-find_package(OpenCV REQUIRED)
-
 # Include N-API wrappers
 execute_process(COMMAND node -p "require('node-addon-api').include"
         WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
