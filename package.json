@@ -1,0 +1,9 @@
+{
+	"name": "cmake-js-object-wrap",
+	"version": "1.0.0",
+	"description": "Basic object wrap example.",
+	"dependencies": {
+		"cmake-js": "^6.1.0",
+		"node-addon-api": "^3.0.2"
+	}
+}
